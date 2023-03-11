@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Proxima-Nova', sans-serif;
+    cursor:default;
+}
+html,body{
+    height:100%;
+    background-color: white;;
+}
+.display-1{
+    font-family: 'Proxima-Nova', sans-serif;
+    font-weight: bold;
+    font-size: 9vw;
+}
+
+.container-fluid{
+    height:100%;
+}
+
+#logo-section{
+    background-color:white;
+    height: 25vh;
+}
+
+#menu-section{
+    background-color: aliceblue;
+    min-height: 10vh;
+}
+
+#title-section{
+    background-color: #cadb2d;;
+    height: 25vh;
+}
+
+#nav-section{
+    background-color:white;
+    font-weight:bold;
+    text-align: left;
+    min-height:75vh;
+    overflow:scroll;
+}
+.nav-link{
+    color:#252525;
+    font-size:1.75vw;
+}
+.nav-link:hover{
+    color:#cadb2d;
+}
+.active{
+    color:#4766af;
+}
+.navbar{
+    min-height: 10vh;
+}
+.navbar-nav > .nav-item > .nav-link{
+    font-size: 7vw;
+    font-weight:bold;
+    color:#252525;
+}
+.navbar-nav > .nav-item > .nav-link:hover{
+    color:#cadb2d;
+}
+.mobile-active{
+    color:#4766af !important;
+}
+
+#content-section{
+    background-color:white;
+    overflow: scroll;
+    min-height:75vh;
+}

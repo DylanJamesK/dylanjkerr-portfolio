@@ -36,12 +36,12 @@ html,body{
     background-color:white;
     font-weight:bold;
     text-align: left;
-    min-height:75vh;
+    min-height:50vh;
     overflow:scroll;
 }
 .nav-link{
     color:#252525;
-    font-size:1.75vw;
+    font-size:1.85vw;
 }
 .nav-link:hover{
     color:#cadb2d;
@@ -68,4 +68,11 @@ html,body{
     background-color:white;
     overflow: scroll;
     min-height:75vh;
+}
+
+.social-icon{
+    fill:#252525
+}
+.social-icon:hover{
+    fill:#cadb2d;
 }

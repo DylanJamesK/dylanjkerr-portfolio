@@ -73,6 +73,24 @@ html,body{
 .social-icon{
     fill:#252525
 }
+
 .social-icon:hover{
     fill:#cadb2d;
+}
+
+.modal-dialog{
+    min-width:85%;
+}
+
+.card:hover{
+border: 2px solid #cadb2d;
+border-radius: 5px;
+background-color: rgba(0,0,0,.05);
+}
+
+.animated-logo{
+    width:80%;
+}
+.animated-logo-mobile{
+    width:20%;
 }

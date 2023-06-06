@@ -94,3 +94,7 @@ background-color: rgba(0,0,0,.05);
 .animated-logo-mobile{
     width:20%;
 }
+
+.card-text{
+    font-size:95%;
+}

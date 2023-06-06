@@ -71,7 +71,8 @@ html,body{
 }
 
 .social-icon{
-    fill:#252525
+    fill:#252525;
+    width: 90%;
 }
 
 .social-icon:hover{

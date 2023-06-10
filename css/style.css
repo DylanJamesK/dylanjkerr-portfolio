@@ -43,6 +43,11 @@ body::-webkit-scrollbar{
     min-height:50vh;
     overflow:scroll;
 }
+
+#nav-section::-webkit-scrollbar{
+    display:none;
+}
+
 .nav-link{
     color:#252525;
     font-size:1.85vw;
@@ -72,6 +77,10 @@ body::-webkit-scrollbar{
     background-color:white;
     overflow: scroll;
     min-height:75vh;
+}
+
+#content-section::-webkit-scrollbar{
+    display:none;
 }
 
 .social-icon{

@@ -7,6 +7,10 @@ html,body{
     height:100%;
     background-color: white;
 }
+body::-webkit-scrollbar{
+    display:none;
+}
+
 .display-1{
     font-family: 'Proxima-Nova', sans-serif;
     font-weight: bold;
@@ -90,7 +94,8 @@ background-color: rgba(0,0,0,.05);
 }
 
 .animated-logo{
-    width:80%;
+    max-width:100%;
+    max-height: 100%;
 }
 .animated-logo-mobile{
     width:20%;

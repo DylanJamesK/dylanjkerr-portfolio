@@ -41,6 +41,7 @@ body::-webkit-scrollbar{
     font-weight:bold;
     text-align: left;
     min-height:50vh;
+    max-height: 60h;
     overflow:scroll;
 }
 
